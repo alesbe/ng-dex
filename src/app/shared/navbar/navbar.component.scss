@@ -16,6 +16,10 @@ nav {
     width: 8rem;
 }
 
+.nav-logo:hover {
+    cursor: pointer;
+}
+
 .nav-link {
     color: $color-light;
     font-weight: bold;
