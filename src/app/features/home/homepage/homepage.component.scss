@@ -1,0 +1,42 @@
+@import "../../../../styles-vars.scss";
+
+.home-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.home-logo {
+    width: 35rem;
+    margin-bottom: 1.5rem;
+}
+
+.home-text {
+    color: $color-dark;
+}
+
+.home-title {
+    margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.home-btn {
+    font-size: 2rem;
+    font-family: $font;
+    color: $color-light;
+    background-color: $color-dark;
+    border: none;
+    padding: 1.8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 5rem;
+    font-weight: bold;
+}
