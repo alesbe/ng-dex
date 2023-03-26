@@ -10,7 +10,7 @@
 }
 
 .home-logo {
-    width: 35rem;
+    width: 25rem;
     margin-bottom: 1.5rem;
 }
 
@@ -39,4 +39,10 @@
     padding-right: 4rem;
     border-radius: 5rem;
     font-weight: bold;
+    transition: transform 0.15s;
+}
+
+.home-btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
