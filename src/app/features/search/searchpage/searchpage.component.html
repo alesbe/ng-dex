@@ -2,19 +2,8 @@
     <input class="searchbar" placeholder="Search by name...">
 
     <div class="card-container">
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
+        <div *ngFor="let pokemon of pokemons; index as i;">
+            <app-card [basicPokemonInfo]="pokemon"></app-card>
+        </div>
     </div>
 </main>
