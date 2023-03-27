@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./searchpage.component.scss']
 })
 export class SearchpageComponent {
-
+  
 }
